@@ -1,0 +1,136 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    font-weight: bold;
+    display:grid;
+    grid-template-rows: 80px repeat(2, 100px);
+    grid-template-areas:
+        "header header header header"
+        "navbar content-1 content-1 content-1 "
+    ;
+}
+ytd-rich-grid-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#menunav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 32px;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 50;
+}
+
+.menu-vecton {
+    margin-top: 5px;
+    margin-left: -5px;
+    width: 375px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.imgmenu{
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    margin: 0px 20px 0px 0px;
+
+}
+
+.imgyoutube1{
+    width: 90px;
+    height: 20px;
+    padding-top: 16px 9px 0px 24px;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.imgcenter{
+    width: 404px;
+    height: 40px;
+    margin: 310px;
+}
+
+.imgicovideo{
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+
+.imgbell{
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    
+}
+
+.imgavatar{
+    width: 34px;
+    height: 34px;
+    margin: 0px 0px 0px 3px;
+    
+}
+
+
+header, nav{
+    padding: 20px;
+}
+
+
+header{
+    grid-area: header;
+}
+
+
+.navico{
+    display: flex;
+    justify-content: flex-start;
+    text-align: initial;
+    
+}
+
+
+ul{
+    margin-top: -17px;
+    padding: 0;
+    
+}
+
+
+li{
+    list-style: none;
+    margin:0px 20px 8px 0px ;
+    
+}
+
+.content-1{
+    grid-area: content-1;
+    display: flex;
+    margin-top: -17px;
+    top: 0;
+    right: 0;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
